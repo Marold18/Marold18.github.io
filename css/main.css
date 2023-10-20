@@ -1,7 +1,7 @@
 :root
 {
-    --uncblue: RGB(1,45,91);
-    --uncgold: RGB(254,189,54);
+    --blue: RGB(0,255,255);
+    --uncgold: RGB(255,255,0);
     --uncgray: RGB(235,235,235);
     color: var(--uncblue);
     background-color:var(--uncgray)
@@ -19,11 +19,11 @@
 {
     text-align: center;
 }
-li
+.li
 {
     display: inline;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 .img
@@ -42,4 +42,8 @@ li
     font-style: italic;
     text-align: center;
     margin-top: 100px;
+}
+.background
+{
+    background-color: cadetblue;
 }
