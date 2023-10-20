@@ -2,14 +2,14 @@
 {
     --blue: RGB(0,255,255);
     --gold: RGB(255,255,0);
-    --red: RGB(0,98,114);
+    --red: RGB(139,149,157);
     --th: RGB(0,255,0);
     --p: RGB(0,0,255);
     color: var(--blue);
     background-color:var(--red)
 }
 
-.h1
+h1
 {
   color: var(--gold);
   font-size: 48pt;
@@ -24,7 +24,7 @@ ul
 li
 {
     display: inline;
-    text-align: left;
+    text-align: center;
 }
 
 img
