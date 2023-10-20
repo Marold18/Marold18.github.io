@@ -1,15 +1,15 @@
 :root
 {
     --blue: RGB(0,255,255);
-    --uncgold: RGB(255,255,0);
-    --uncgray: RGB(235,235,235);
-    color: var(--uncblue);
-    background-color:var(--uncgray)
+    --gold: RGB(255,255,0);
+    --red: RGB(57,0,0);
+    color: var(--blue);
+    background-color:var(--red)
 }
 
 .title
 {
-  color: var(--uncgold);
+  color: var(--gold);
   font-size: 48pt;
   text-decoration: underline;
   text-align: center;
@@ -34,7 +34,7 @@
 
 .section :hover
 {
-    background-color:var(--uncgold);
+    background-color:var(--gold);
 }
 
 .footnote
