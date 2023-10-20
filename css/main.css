@@ -2,12 +2,12 @@
 {
     --blue: RGB(0,255,255);
     --gold: RGB(255,255,0);
-    --red: RGB(57,0,0);
+    --red: RGB(0,0,0);
     color: var(--blue);
     background-color:var(--red)
 }
 
-.title
+.h1
 {
   color: var(--gold);
   font-size: 48pt;
@@ -43,7 +43,4 @@ section :hover
     text-align: center;
     margin-top: 100px;
 }
-background
-{
-    background-color: cadetblue;
-}
+
