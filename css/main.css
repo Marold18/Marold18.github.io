@@ -3,6 +3,8 @@
     --blue: RGB(0,255,255);
     --gold: RGB(255,255,0);
     --red: RGB(0,0,0);
+    --th: RGB(0,255,0);
+    --p: RGB(0,0,255);
     color: var(--blue);
     background-color:var(--red)
 }
@@ -22,8 +24,7 @@ ul
 li
 {
     display: inline;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    text-align: left;
 }
 
 img
@@ -36,7 +37,14 @@ section :hover
 {
     background-color:var(--gold);
 }
-
+th
+{
+    color: var(--th);
+}
+p
+{
+    color: var(--p);
+}
 .footnote
 {
     font-style: italic;
