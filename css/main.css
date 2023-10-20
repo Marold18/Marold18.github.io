@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-ul
+.ul
 {
     text-align: center;
 }
@@ -26,13 +26,13 @@ li
     margin-right: 3vw;
 }
 
-img
+.img
 {
     margin: auto;
     display: block;
 }
 
-section :hover
+.section :hover
 {
     background-color:var(--uncgold);
 }
