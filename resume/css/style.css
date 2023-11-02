@@ -1,5 +1,6 @@
 :root
 {
+  --Text: rgb(166,44,170);
   --Blue: rgb(0,32,255);
   --Gold: rgb(153,231,0);
   --Gray: #8a8a8d;
@@ -35,4 +36,5 @@ ul
 {
     list-style: none;
     padding-left: 0px;
+  color: var(--Text);
 }
