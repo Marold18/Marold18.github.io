@@ -1,16 +1,16 @@
 :root
 {
-  -Blue: rgb(0,32,255);
-  -Gold: rgb(153,231,0);
-  -Gray: #8a8a8d;
+  --Blue: rgb(0,32,255);
+  --Gold: rgb(153,231,0);
+  --Gray: #8a8a8d;
 }
 body
 {
-    background-color: var(-Gray);
+    background-color: var(--Gray);
 }
 *
 {
-    color: var(-Blue);
+    color: var(--Blue);
     text-align: center;
 }
 h1
@@ -19,17 +19,17 @@ h1
 }
 nav
 {
-    border: 7px var(-Gold) solid;
+    border: 7px var(--Gold) solid;
 }
 section
 {
-    border: 5px var(-Blue) solid;
+    border: 5px var(--Blue) solid;
     margin: 5px;
     margin-top: 50px;
 }
 .date
 {
-    color: var(-Gold);
+    color: var(--Gold);
 }
 ul
 {
